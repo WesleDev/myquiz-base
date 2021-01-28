@@ -44,6 +44,10 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  img {
+    width: 260px;
+    height: 300px;
+  }
 `;
 
 Widget.Topic = styled.a`

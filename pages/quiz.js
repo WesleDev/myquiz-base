@@ -16,7 +16,9 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <img src="https://media.giphy.com/media/dTWyscFJ2qucD7YrUK/giphy.gif" alt="loading" width="300" height="300" />
+        <div id="loading">
+          <img src="https://media.giphy.com/media/dTWyscFJ2qucD7YrUK/giphy.gif" alt="loading" width="300" height="300" />
+        </div>
       </Widget.Content>
     </Widget>
   );
@@ -176,7 +178,7 @@ export default function QuizPage() {
   React.useEffect(() => {
     // fetch() ...
     setTimeout(() => {
-      setScreenState(screenStates.QUIZ);
+      // setScreenState(screenStates.QUIZ);
     }, 1 * 1000);
   // nasce === didMount
   }, []);
