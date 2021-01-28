@@ -16,7 +16,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <img src="https://media.giphy.com/media/dTWyscFJ2qucD7YrUK/giphy.gif" alt="loading" width="300" height="300" />
       </Widget.Content>
     </Widget>
   );
