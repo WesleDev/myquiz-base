@@ -2,7 +2,7 @@
 import React from 'react';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
+// import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import AlternativeForms from '../src/components/AlternativeForms';
@@ -85,7 +85,7 @@ function QuestionWidget({
         alt="Descrição"
         style={{
           width: '100%',
-          height: '150px',
+          height: '200px',
           objectFit: 'cover',
         }}
         src={question.image}
@@ -193,7 +193,7 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
+        {/* <QuizLogo /> */}
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}

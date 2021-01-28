@@ -1,10 +1,10 @@
 {
   "bg": "https://i2.wp.com/www.selectgame.com.br/wp-content/uploads/2015/12/Rainbow-Six-Siege-Gameplay-Screenshot-Full-HD-1920x1080.jpg?fit=1920%2C1080&ssl=1",
   "title": "Quiz Rainbow Six Siege",
-  "description": "Teste os seus conhecimentos sobre o cenario de R6 ",
+  "description": "Teste os seus conhecimentos sobre o cenário de R6 ",
   "questions": [
     {
-      "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/PL/pl/99/EP0001-CUSA01788_00-AV00000000000037/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720",
+      "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/PL/pl/99/EP0001-CUSA01788_00-AV00000000000037/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=420",
       "title": "Em que país nasceu a agente Ash?",
       "description": "Essa é pra aquecer",
       "answer": 0,
@@ -25,6 +25,42 @@
          "2014",
          "2017",
          "2015"
+      ]
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/rainbowsix/images/1/19/ACOG_R6S.png",
+      "title": "Quais desses operadores já tiveram a mira ACOG?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        "Vigil",
+        "Kapkan",
+        "Smoke (SMG-11)",
+        "Ela"
+      ]
+    },
+    {
+      "image": "https://www.pichauarena.com.br/wp-content/uploads/2019/08/resize.jpg",
+      "title": "Qual destas equipes foi a campeã da season 1 da pro league?",
+      "description": "Essa é pra aquecer",
+      "answer": 1,
+      "alternatives": [
+        "Black Dragons",
+        "Penta",
+        "Liquid",
+        "Spacestation"
+      ]
+    },
+    {
+      "image": "https://static.wikia.nocookie.net/rainbowsix/images/d/da/Smg11-image.jpg",
+      "title": "Quais personagens tem a SMG-11?",
+      "description": "Matar com teco teco",
+      "answer": 3,
+      "alternatives": [
+        "Mute,Vigil,Dokaebi,Smoke,Sledge",
+        "Mute,Smoke,Sledge",
+        "Echo e Hibana",
+        "Sledge,Mute,Smoke,Amaru"
       ]
     }
   ],
