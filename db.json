@@ -1,28 +1,30 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://i2.wp.com/www.selectgame.com.br/wp-content/uploads/2015/12/Rainbow-Six-Siege-Gameplay-Screenshot-Full-HD-1920x1080.jpg?fit=1920%2C1080&ssl=1",
+  "title": "Quiz Rainbow Six Siege",
+  "description": "Teste os seus conhecimentos sobre o cenario de R6 ",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/PL/pl/99/EP0001-CUSA01788_00-AV00000000000037/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720",
+      "title": "Em que país nasceu a agente Ash?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 0,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Israel",
+        "Estados unidos",
+        "Argentina",
+        "Chile"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "image": "https://s2.glbimg.com/RWlNA8GFD5GoahvjLKz4AHJ47U0=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/p/TfJBHRRMWZGBACp3mjaA/apps.46555.14552088507516913.65e423fb-c1ae-4e9d-b981-88b268e24f4f.jpg",
+      "title": "Em que ano o R6 foi lançado?",
       "description": "Faz tempo em haha",
-      "answer": 0,
+      "answer": 3,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "2016",
+         "2014",
+         "2017",
+         "2015"
       ]
     }
   ],

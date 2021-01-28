@@ -50,7 +50,6 @@ export default function Home() {
             <form onSubmit={function (event) {
               event.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('teste');
             }}
             >
               <Input
@@ -68,13 +67,13 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        {/* <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
             <p>lorem ipsum dolor sit amet...</p>
           </Widget.Content>
-        </Widget>
+        </Widget> */}
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/wesleDev" />
