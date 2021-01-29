@@ -69,9 +69,9 @@ function QuestionWidget({
   onSubmit,
   addResult,
 }) {
+  const questionId = `question__${questionIndex}`;
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState();
-  const questionId = `question__${questionIndex}`;
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
   return (
@@ -106,10 +106,10 @@ function QuestionWidget({
             setIsQuestionSubmited(true);
             setTimeout(() => {
               addResult(isCorrect);
-              onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+              onSubmit();
+            }, 1 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -128,7 +128,7 @@ function QuestionWidget({
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
-                  onChange={() => setSelectedAlternative(alternativeIndex)}
+                  onClick={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
                 />
                 {alternative}
@@ -179,7 +179,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 2 * 1000);
   // nasce === didMount
   }, []);
 
