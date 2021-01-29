@@ -35,13 +35,14 @@ function ResultWidget({ results }) {
         <p>
           Você acertou
           {' '}
-          {results.reduce((somatoriaAtual, resultAtual) => {
+          {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
             if (isAcerto) {
               return somatoriaAtual + 1;
             }
             return somatoriaAtual;
-          }, 0)}
+          }, 0)} */}
+          {results.filter((x) => x).length}
           {' '}
           pergunta(s)
         </p>
@@ -53,7 +54,7 @@ function ResultWidget({ results }) {
               {' '}
               Resultado:
               {' '}
-              { result === true ? 'Acertou' : 'Errou' }
+              {result === true ? 'Acertou' : 'Errou' }
             </li>
           ))}
         </ul>
@@ -106,9 +107,9 @@ function QuestionWidget({
             setIsQuestionSubmited(true);
             setTimeout(() => {
               addResult(isCorrect);
+              onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-              onSubmit();
             }, 1 * 1000);
           }}
         >
