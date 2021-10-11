@@ -35,7 +35,6 @@ export default function Home() {
   const [name, setName] = useState('');
 
   return (
-
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>AluraQuiz - Modelo Base</title>
@@ -47,20 +46,21 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (event) {
-              event.preventDefault();
-              router.push(`/quiz?name=${name}`);
-            }}
+            <form
+              onSubmit={function (event) {
+                event.preventDefault();
+                router.push(`/quiz?name=${name}`);
+              }}
             >
               <Input
-                name="nomeDoUsuario"
+                name='nomeDoUsuario'
                 onChange={(event) => {
                   setName(event.target.value);
                 }}
-                placeholder="Diz ai seu nome"
+                placeholder='Diz ai seu nome'
                 value={name}
               />
-              <Button type="submit" disabled={name.length === 0}>
+              <Button type='submit' disabled={name.length === 0}>
                 {`Jogar ${name}`}
               </Button>
             </form>
@@ -91,7 +91,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/wesleDev" />
+      <GitHubCorner projectUrl='https://github.com/wesleDev' />
     </QuizBackground>
   );
 }
